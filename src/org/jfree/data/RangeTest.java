@@ -248,6 +248,19 @@ public class RangeTest {
     	Range expected = new Range(2,2);
         assertEquals(expected, Range.scale(expected, 1));
     }
+
+    @Test
+    public void scaleTestEqual0() { 
+        Range expected = new Range(2,2); 
+        assertEquals(expected, Range.scale(expected, 0)); 
+    } 
+
+    @Test 
+    public void scaleTestBetweenZeroOne() { 
+        Range expected = new Range(2,2); 
+        assertEquals(expected, Range.scale(expected, 0.5)); 
+
+    } 
     
     //EQUALS
     @Test
