@@ -2,12 +2,12 @@
 
 **Lab. Report \#4 – Mutation Testing and Web app testing**
 
-| Group \#:      |     |
+| Group \#:      | 7    |
 | -------------- | --- |
-| Student Names: |     |
-|                |     |
-|                |     |
-|                |     |
+| Student Names: | Carter Drewes |
+|                | Farica Mago    |
+|                | Samira Khan    |
+|                | Michele Pham    |
 
 # Introduction
 
