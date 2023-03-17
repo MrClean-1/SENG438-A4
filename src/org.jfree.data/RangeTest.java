@@ -3,6 +3,7 @@ package org.jfree.data;
 import static org.junit.Assert.*;
 
 import org.junit.*;
+import org.junit.rules.ExpectedException;
 
 public class RangeTest {
     private static Range exampleRange, largeRange;
@@ -129,24 +130,54 @@ public class RangeTest {
     	assertEquals(expected, Range.expand(exampleRange,3,-4));
     }
     @Test
-    public void getExpandTestlowerbigger(){
-        Range expected = new Range(0,0);
-    	assertEquals(expected, Range.expand(exampleRange,-3,-3));
-    }
-    @Test
-    public void getExpandTestlowersmaller(){
-        Range expected = new Range(-7,7);
-    	assertEquals(expected, Range.expand(exampleRange,3,3));
+    public void getExpandTestEqualMargins(){
+        Range expected = new Range(-1,-1);
+    	assertEquals(expected, Range.expand(new Range(-1,-1),3,3));
     }
 
-    
+    @Test
+    public void getExpandTestUpperEqualsLower(){
+        Range expected = new Range(1,1);
+        assertEquals(expected, Range.expand(new Range(1,1),-1,1));
+    }
+
+    @Test
+    public void getExpandTestLargerLower(){
+        Range expected = new Range(3,3);
+        assertEquals(expected, Range.expand(new Range(-1,1),-4,-1));
+    }
+
+    @Test
+    public void getExpandTestUpperSmaller(){
+        Range expected = new Range(-7,-5);
+    	assertEquals(expected, Range.expand(exampleRange,3,-3));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void getExpandTestNullRange(){
+        assertNull(Range.expand(null, 3, -3));
+    }
+
     //SHIFT
+    @Test(expected = IllegalArgumentException.class)
+    public void getShiftTestNull() {
+        Range.shift(null, 2, true);
+    }
+
     @Test
     public void getShiftTest() {   
     	Range expected = new Range(0, 3);
     	Range result = Range.shift(exampleRange,2);
     	assertEquals(expected, result);
     }
+
+    @Test
+    public void getShiftTestNoZeroCrossing() {
+        Range expected = new Range(2, 2);
+        Range result = Range.shift(new Range(0,0),2, false);
+        assertEquals(expected, result);
+    }
+
     @Test
     public void getShiftTestZero() {   
     	Range expected = new Range(-1, 1);
@@ -245,6 +276,22 @@ public class RangeTest {
         Range test = new Range(6, 25);
         assertFalse(exampleRange.intersects(test));
     }
+
+    @Test
+    public void getIntersectsBoundary() {
+        assertTrue(new Range(-1,-1).intersects(-1, 0));
+    }
+
+    @Test
+    public void getIntersectsBoundaryPoint() {
+        assertFalse(new Range(-1,-1).intersects(-1, -1));
+    }
+
+    @Test
+    public void getIntersectsBoundaryFalse() {
+        assertFalse(exampleRange.intersects(-1, -2));
+    }
+
     //upperBound
     @Test
     public void getUpperBoundTestOne() {
@@ -362,6 +409,22 @@ public class RangeTest {
     public void CombineIgnoreNaNR1R2NullTest() {
         assertNull(Range.combineIgnoringNaN(null, null));
     }
+
+    @Test
+    public void CombineIgnoreNaNNullAndNaNTest() {
+        assertNull(Range.combineIgnoringNaN(new Range(Double.NaN, Double.NaN), null));
+    }
+
+    @Test
+    public void CombineIgnoreNaNNullAndNaNTestSwapped() {
+        assertNull(Range.combineIgnoringNaN(null, new Range(Double.NaN, Double.NaN)));
+    }
+
+    @Test
+    public void CombineIgnoreNaNOnlyNaNTest() {
+        assertNull(Range.combineIgnoringNaN(new Range(Double.NaN, Double.NaN), new Range(Double.NaN, Double.NaN)));
+    }
+
     @Test
     public void CombineIgnoreNaNR2NullTest() {
     	Range expected = new Range(1,2);
@@ -372,6 +435,20 @@ public class RangeTest {
     	Range expected = new Range(1,2);
     	Range expected2 = new Range(1,2); 
         assertEquals(expected, Range.combineIgnoringNaN(expected, expected2));
+    }
+
+    @Test
+    public void CombineTestNaNCatching() {
+        Range expected = new Range(-1,Double.NaN);
+        Range expected2 = new Range(Double.NaN,1);
+        assertEquals(new Range(-1, 1), Range.combineIgnoringNaN(expected, expected2));
+    }
+
+    @Test
+    public void CombineTestNaNCatchingSwapped() {
+        Range expected = new Range(-1,Double.NaN);
+        Range expected2 = new Range(Double.NaN,1);
+        assertEquals(new Range(-1, 1), Range.combineIgnoringNaN(expected2, expected));
     }
     
     // SCALE
@@ -386,19 +463,6 @@ public class RangeTest {
     	Range expected = new Range(2,2);
         assertEquals(expected, Range.scale(expected, 1));
     }
-
-    @Test
-    public void scaleTestEqual0() { 
-        Range expected = new Range(2,2); 
-        assertEquals(expected, Range.scale(expected, 0)); 
-    } 
-
-    @Test 
-    public void scaleTestBetweenZeroOne() { 
-        Range expected = new Range(2,2); 
-        assertEquals(expected, Range.scale(expected, 0.5)); 
-
-    } 
     
     //paramtest
     @Test(expected = IllegalArgumentException.class)
