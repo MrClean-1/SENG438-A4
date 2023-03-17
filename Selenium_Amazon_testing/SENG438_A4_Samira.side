@@ -1,0 +1,212 @@
+{
+  "id": "f14ab1ef-7777-463b-b938-37fce1fb9db4",
+  "version": "2.0",
+  "name": "SENG438A4",
+  "url": "https://www.amazon.ca/gp/css/order-history?ref_=nav_orders_first",
+  "tests": [{
+    "id": "88fad91e-e0ea-4bc5-8156-5c9dedee893f",
+    "name": "View Cart",
+    "commands": [{
+      "id": "55278a34-65b9-4735-825f-83427ba61581",
+      "comment": "",
+      "command": "open",
+      "target": "/hz/mobile/mission?p=kxMuQaM79jXjrzzJzcaEtBzIAsEf%2BZGuAyFUFBkML6RAq9Uq4fyXaxgplA3BOIo0ue8KLMK7Wl1AMFbHTrnrNry9a7W0VEDF%2BM7Cy50UhAFi2E8u3vjV7%2BZUl46%2F8mDVZkP%2F7QZtAM4yVk%2BnrZ2xqEIxfvCZeuYe5CbzRyqbWuXJ59St5GmJufEhJWEItJm0Ze7hehM%2F26V7ga9P5WQeOPm0hG6PEyMlc6%2FMyrfn8lNL4QFSh6Yi4wmI%2BhZttt1cD5OFcgLpnTG8FIIvQdwlJeMTKimk2nwZzRmJrFDHalHYdqJM0WSNbjXp2tNpQmUOcFfvaSP8hrR%2B7GDUzaS2wW71lpzX6q0HSsloZIo4YJeoO1G6rYUyTOfLzUDsxR531%2F7TrL2%2BroboJtPSrd8ZMA%3D%3D&ref_=ci_mcx_mi&pf_rd_r=HXJ92ADS3WM4KZ0ZCDFX&pf_rd_p=d8164a99-2837-491f-bf42-2ea1f905506b&pd_rd_r=cc8ac9bf-9778-473a-8b08-3697980b4582&pd_rd_w=LHtQB&pd_rd_wg=cgPMK",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "643d88a5-01c9-446a-8eb9-694fd82c1644",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf02ad8f-c1d7-48bd-bbbe-cc70d29ae270",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3036fa58-173f-4ba6-b97c-37255303d288",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2349086a-c0fd-48f9-a1eb-d5ea75bec3e2",
+      "comment": "",
+      "command": "click",
+      "target": "id=nav-cart-text-container",
+      "targets": [
+        ["id=nav-cart-text-container", "id"],
+        ["css=#nav-cart-text-container", "css:finder"],
+        ["xpath=//div[@id='nav-cart-text-container']", "xpath:attributes"],
+        ["xpath=//a[@id='nav-cart']/div[2]", "xpath:idRelative"],
+        ["xpath=//a[5]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c75264b5-f465-49f8-a8cf-9a602de40fd1",
+    "name": "Remove From Cart",
+    "commands": [{
+      "id": "3f6b3375-4633-438a-a0fb-5abb14ab3b02",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ab11b92-1592-4547-b852-716f12dccc41",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x936",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3184cc7d-2c86-49ee-9a9a-2fb31fbf6bd5",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit.delete.C96a5e640-921c-4839-a157-55e2c7fbc294",
+      "targets": [
+        ["name=submit.delete.C96a5e640-921c-4839-a157-55e2c7fbc294", "name"],
+        ["css=.sc-action-delete:nth-child(3) .a-color-link", "css:finder"],
+        ["xpath=//input[@name='submit.delete.C96a5e640-921c-4839-a157-55e2c7fbc294']", "xpath:attributes"],
+        ["xpath=//div[@id='sc-active-C96a5e640-921c-4839-a157-55e2c7fbc294']/div[4]/div/div[3]/div/span[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "86a41f47-1b83-4cc6-8a1f-cbd54f118beb",
+    "name": "Write Review",
+    "commands": [{
+      "id": "485e28d9-6a14-490e-83d9-aee454523189",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.ca/gp/css/order-history?ref_=nav_orders_first",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00e8cf11-a2e9-44da-b8c1-ea542cc6f2e5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x936",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c21aaa03-1fa7-4fb3-b68a-4c7597551115",
+      "comment": "",
+      "command": "click",
+      "target": "id=a-autoid-6-announce",
+      "targets": [
+        ["id=a-autoid-6-announce", "id"],
+        ["linkText=Write a product review", "linkText"],
+        ["css=#a-autoid-6-announce", "css:finder"],
+        ["xpath=//a[contains(text(),'Write a product review')]", "xpath:link"],
+        ["xpath=//a[@id='a-autoid-6-announce']", "xpath:attributes"],
+        ["xpath=//span[@id='a-autoid-6']/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/review/review-your-purchases?asins=B07NTSSZRZ&channel=YAcc-wr&ref=ppx_yo2ov_dt_b_rev_prod')]", "xpath:href"],
+        ["xpath=//span[3]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Write a product review')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29c44dd4-d806-4070-9ad3-b788b76f9fb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ryp__star__button:nth-child(5) > .ryp__review-stars__star",
+      "targets": [
+        ["css=.ryp__star__button:nth-child(5) > .ryp__review-stars__star", "css:finder"],
+        ["xpath=//img[@alt='select to rate item five star.']", "xpath:img"],
+        ["xpath=//div[@id='react-app']/div[2]/div/div/form/div[2]/div/div/div/div[2]/div/button[5]/img", "xpath:idRelative"],
+        ["xpath=//button[5]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33657ac2-ce61-4cae-b5cc-05c6c1169118",
+      "comment": "",
+      "command": "click",
+      "target": "id=scarface-review-title-label",
+      "targets": [
+        ["id=scarface-review-title-label", "id"],
+        ["css=#scarface-review-title-label", "css:finder"],
+        ["xpath=//input[@id='scarface-review-title-label']", "xpath:attributes"],
+        ["xpath=//div[@id='react-app']/div[2]/div/div/form/div[4]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8cbb75a-5aa8-47cc-8fb8-4ae00d7369f3",
+      "comment": "",
+      "command": "type",
+      "target": "id=scarface-review-title-label",
+      "targets": [
+        ["id=scarface-review-title-label", "id"],
+        ["css=#scarface-review-title-label", "css:finder"],
+        ["xpath=//input[@id='scarface-review-title-label']", "xpath:attributes"],
+        ["xpath=//div[@id='react-app']/div[2]/div/div/form/div[4]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Amazing"
+    }, {
+      "id": "ac23ce2a-f3bb-4086-82b1-0a7c16532d71",
+      "comment": "",
+      "command": "click",
+      "target": "id=scarface-review-text-card-title",
+      "targets": [
+        ["id=scarface-review-text-card-title", "id"],
+        ["css=#scarface-review-text-card-title", "css:finder"],
+        ["xpath=//textarea[@id='scarface-review-text-card-title']", "xpath:attributes"],
+        ["xpath=//div[@id='react-app']/div[2]/div/div/form/div[6]/div[2]/div/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8339f1a8-af8c-436d-84dd-1c221532b89f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,539.2000122070312)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5319df92-c86a-4912-8fc5-f2ab24715530",
+      "comment": "",
+      "command": "type",
+      "target": "id=scarface-review-text-card-title",
+      "targets": [
+        ["id=scarface-review-text-card-title", "id"],
+        ["css=#scarface-review-text-card-title", "css:finder"],
+        ["xpath=//textarea[@id='scarface-review-text-card-title']", "xpath:attributes"],
+        ["xpath=//div[@id='react-app']/div[2]/div/div/form/div[6]/div[2]/div/div/div[2]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Amazing product!"
+    }, {
+      "id": "27cf138c-7d1b-4a54-8a11-677a6e989325",
+      "comment": "",
+      "command": "click",
+      "target": "css=.a-button-normal .a-button-text",
+      "targets": [
+        ["css=.a-button-normal .a-button-text", "css:finder"],
+        ["xpath=//button[@value='Submit']", "xpath:attributes"],
+        ["xpath=//div[@id='react-app']/div[2]/div/div/form/div[7]/div/span/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "50b0aebc-1bf7-419b-9dbd-14018b79d592",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["88fad91e-e0ea-4bc5-8156-5c9dedee893f"]
+  }],
+  "urls": ["https://www.amazon.ca/", "https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart", "https://www.amazon.ca/gp/product/B09XV5TY6L/ref=ox_sc_act_image_1?smid=ADAKYBS9ULYBA&th=1", "https://www.amazon.ca/gp/css/order-history?ref_=nav_orders_first"],
+  "plugins": []
+}
