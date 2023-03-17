@@ -1,0 +1,616 @@
+{
+  "id": "98e85256-3339-44f9-a25c-62be64f59743",
+  "version": "2.0",
+  "name": "SENG438_A4-Carter",
+  "url": "https://www.amazon.ca/Microsoft-Wireless-Mobile-Mouse-1850/dp/B00KLTEA0G/ref=cm_cr_arp_d_product_top?ie=UTF8",
+  "tests": [{
+    "id": "3a531747-c551-4125-809e-2fff039d5f46",
+    "name": "Checkout and add new shipping info",
+    "commands": [{
+      "id": "0f3bd130-7715-4e74-a368-e700975e2d2f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "751301b4-bc65-4bb9-8c6e-b9209ff9ed6f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf44c001-148f-4cf0-bfa8-fbd34bba8818",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a5ca531-ed44-4e96-a61d-54fca876b6fe",
+      "comment": "",
+      "command": "click",
+      "target": "name=proceedToRetailCheckout",
+      "targets": [
+        ["name=proceedToRetailCheckout", "name"],
+        ["css=#sc-buy-box-ptc-button .a-button-input", "css:finder"],
+        ["xpath=//input[@name='proceedToRetailCheckout']", "xpath:attributes"],
+        ["xpath=//span[@id='sc-buy-box-ptc-button']/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5cf3903-3640-4f37-b876-49bc906bb74d",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-enterAddressFullName",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressFullName", "id"],
+        ["name=address-ui-widgets-enterAddressFullName", "name"],
+        ["css=#address-ui-widgets-enterAddressFullName", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressFullName']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ad5e7b2-fdb9-417c-9a1b-59d332fbd746",
+      "comment": "",
+      "command": "type",
+      "target": "id=address-ui-widgets-enterAddressFullName",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressFullName", "id"],
+        ["name=address-ui-widgets-enterAddressFullName", "name"],
+        ["css=#address-ui-widgets-enterAddressFullName", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressFullName']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "SENG 438"
+    }, {
+      "id": "0e818417-d96d-4639-82b5-c1e09a4e9604",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-enterAddressPhoneNumber",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressPhoneNumber", "id"],
+        ["name=address-ui-widgets-enterAddressPhoneNumber", "name"],
+        ["css=#address-ui-widgets-enterAddressPhoneNumber", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressPhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e84de043-2209-4ab0-b71b-b65a4002c3b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=address-ui-widgets-enterAddressPhoneNumber",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressPhoneNumber", "id"],
+        ["name=address-ui-widgets-enterAddressPhoneNumber", "name"],
+        ["css=#address-ui-widgets-enterAddressPhoneNumber", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressPhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "4032205738"
+    }, {
+      "id": "e4f131df-123c-4ba2-9e9e-5e71614b0e6b",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-enterAddressLine1",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressLine1", "id"],
+        ["name=address-ui-widgets-enterAddressLine1", "name"],
+        ["css=#address-ui-widgets-enterAddressLine1", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressLine1']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef01d29b-2d32-4ba1-8da0-7b11e5cc3ed2",
+      "comment": "",
+      "command": "type",
+      "target": "id=address-ui-widgets-enterAddressLine1",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressLine1", "id"],
+        ["name=address-ui-widgets-enterAddressLine1", "name"],
+        ["css=#address-ui-widgets-enterAddressLine1", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressLine1']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "622 Collegiate Pl NW"
+    }, {
+      "id": "a9286cbb-745e-480a-ac02-e726d80ba6ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-enterAddressCity",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressCity", "id"],
+        ["name=address-ui-widgets-enterAddressCity", "name"],
+        ["css=#address-ui-widgets-enterAddressCity", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressCity']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[12]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5141aaaa-0a78-4c88-b22a-f71ab17c58b0",
+      "comment": "",
+      "command": "type",
+      "target": "id=address-ui-widgets-enterAddressCity",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressCity", "id"],
+        ["name=address-ui-widgets-enterAddressCity", "name"],
+        ["css=#address-ui-widgets-enterAddressCity", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressCity']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[12]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": "Calgary"
+    }, {
+      "id": "a1efa895-ab30-4e71-ac5f-cbe340c9d917",
+      "comment": "",
+      "command": "click",
+      "target": "css=#address-ui-widgets-enterAddressStateOrRegion .a-button-text",
+      "targets": [
+        ["css=#address-ui-widgets-enterAddressStateOrRegion .a-button-text", "css:finder"],
+        ["xpath=//span[@id='address-ui-widgets-enterAddressStateOrRegion']/span/span", "xpath:idRelative"],
+        ["xpath=//div[14]/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90a5373b-988d-4e9a-8080-255c1c663a83",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-enterAddressStateOrRegion-dropdown-nativeId_0",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressStateOrRegion-dropdown-nativeId_0", "id"],
+        ["linkText=Alberta", "linkText"],
+        ["css=#address-ui-widgets-enterAddressStateOrRegion-dropdown-nativeId_0", "css:finder"],
+        ["xpath=//a[contains(text(),'Alberta')]", "xpath:link"],
+        ["xpath=//a[@id='address-ui-widgets-enterAddressStateOrRegion-dropdown-nativeId_0']", "xpath:attributes"],
+        ["xpath=//div[@id='a-popover-1']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Alberta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd981586-d9e5-48e1-951b-c2130c163918",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-enterAddressPostalCode",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressPostalCode", "id"],
+        ["name=address-ui-widgets-enterAddressPostalCode", "name"],
+        ["css=#address-ui-widgets-enterAddressPostalCode", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressPostalCode']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[16]/input", "xpath:idRelative"],
+        ["xpath=//div[16]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b002e000-e121-4f81-b99b-04d308be6550",
+      "comment": "",
+      "command": "type",
+      "target": "id=address-ui-widgets-enterAddressPostalCode",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressPostalCode", "id"],
+        ["name=address-ui-widgets-enterAddressPostalCode", "name"],
+        ["css=#address-ui-widgets-enterAddressPostalCode", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressPostalCode']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[16]/input", "xpath:idRelative"],
+        ["xpath=//div[16]/input", "xpath:position"]
+      ],
+      "value": "t2n4v8"
+    }, {
+      "id": "2d699944-2e12-44fc-8075-226db017b880",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-use-as-my-default",
+      "targets": [
+        ["id=address-ui-widgets-use-as-my-default", "id"],
+        ["name=address-ui-widgets-use-as-my-default", "name"],
+        ["css=#address-ui-widgets-use-as-my-default", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-use-as-my-default']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "409a6f5d-be2d-4cd1-8ebe-7004d309e375",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-use-as-my-default",
+      "targets": [
+        ["id=address-ui-widgets-use-as-my-default", "id"],
+        ["name=address-ui-widgets-use-as-my-default", "name"],
+        ["css=#address-ui-widgets-use-as-my-default", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-use-as-my-default']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32ee79a8-ed79-4706-a420-a11b8c809bcd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#address-ui-widgets-form-submit-button .a-button-input",
+      "targets": [
+        ["css=#address-ui-widgets-form-submit-button .a-button-input", "css:finder"],
+        ["xpath=(//input[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//span[@id='address-ui-widgets-form-submit-button']/span/input", "xpath:idRelative"],
+        ["xpath=//div/span/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "07fc3077-7c01-45b6-87cd-0de339dfa71c",
+    "name": "Checkout and add another address",
+    "commands": [{
+      "id": "8422e93c-4467-4ebf-a93b-44e5ae225dac",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7e0f41f-6096-4813-9784-1fa98c98aef8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67f9aad8-2c0a-4c0e-8433-581f9d71135d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=proceedToRetailCheckout",
+      "targets": [
+        ["name=proceedToRetailCheckout", "name"],
+        ["css=#sc-buy-box-ptc-button .a-button-input", "css:finder"],
+        ["xpath=//input[@name='proceedToRetailCheckout']", "xpath:attributes"],
+        ["xpath=//span[@id='sc-buy-box-ptc-button']/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "651bdf18-c0e1-4c23-ae3f-71291ee75245",
+      "comment": "",
+      "command": "click",
+      "target": "name=proceedToRetailCheckout",
+      "targets": [
+        ["name=proceedToRetailCheckout", "name"],
+        ["css=#sc-buy-box-ptc-button .a-button-input", "css:finder"],
+        ["xpath=//input[@name='proceedToRetailCheckout']", "xpath:attributes"],
+        ["xpath=//span[@id='sc-buy-box-ptc-button']/span/input", "xpath:idRelative"],
+        ["xpath=//span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "348319f5-3079-400f-96fa-645cc01b86e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=add-new-address-popover-link",
+      "targets": [
+        ["id=add-new-address-popover-link", "id"],
+        ["linkText=Add a new address", "linkText"],
+        ["css=#add-new-address-popover-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Add a new address')]", "xpath:link"],
+        ["xpath=//a[@id='add-new-address-popover-link']", "xpath:attributes"],
+        ["xpath=//form[@id='address-list']/div/div/div/div/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add a new address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1d5a2c1-6717-4461-9cf8-06d981d9240e",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-enterAddressFullName",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressFullName", "id"],
+        ["name=address-ui-widgets-enterAddressFullName", "name"],
+        ["css=#address-ui-widgets-enterAddressFullName", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressFullName']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4e9e1cb-66eb-4c9d-acdc-1da642b107c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=address-ui-widgets-enterAddressFullName",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressFullName", "id"],
+        ["name=address-ui-widgets-enterAddressFullName", "name"],
+        ["css=#address-ui-widgets-enterAddressFullName", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressFullName']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "seng 438"
+    }, {
+      "id": "70389c56-28cb-4542-af54-970313425ddd",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-enterAddressPhoneNumber",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressPhoneNumber", "id"],
+        ["name=address-ui-widgets-enterAddressPhoneNumber", "name"],
+        ["css=#address-ui-widgets-enterAddressPhoneNumber", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressPhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04dd79f1-4420-491b-9136-9f3c2dd60275",
+      "comment": "",
+      "command": "type",
+      "target": "id=address-ui-widgets-enterAddressPhoneNumber",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressPhoneNumber", "id"],
+        ["name=address-ui-widgets-enterAddressPhoneNumber", "name"],
+        ["css=#address-ui-widgets-enterAddressPhoneNumber", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressPhoneNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "4032109375"
+    }, {
+      "id": "adc5d531-b92d-4086-8f4d-799147cd88db",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-enterAddressLine1",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressLine1", "id"],
+        ["name=address-ui-widgets-enterAddressLine1", "name"],
+        ["css=#address-ui-widgets-enterAddressLine1", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressLine1']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "720d7c48-846a-47b2-8150-5fdf55d3ac2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=address-ui-widgets-enterAddressLine1",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressLine1", "id"],
+        ["name=address-ui-widgets-enterAddressLine1", "name"],
+        ["css=#address-ui-widgets-enterAddressLine1", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressLine1']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "2500University Dr NW"
+    }, {
+      "id": "8a0912cc-a2c2-41a4-95ed-1bd71706c9d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-enterAddressCity",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressCity", "id"],
+        ["name=address-ui-widgets-enterAddressCity", "name"],
+        ["css=#address-ui-widgets-enterAddressCity", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressCity']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[12]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a6290f0-96c5-40c3-86d8-28999624709d",
+      "comment": "",
+      "command": "type",
+      "target": "id=address-ui-widgets-enterAddressCity",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressCity", "id"],
+        ["name=address-ui-widgets-enterAddressCity", "name"],
+        ["css=#address-ui-widgets-enterAddressCity", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressCity']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[12]/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": "Calgary"
+    }, {
+      "id": "44a28717-729e-4baa-b7b7-4904b5971496",
+      "comment": "",
+      "command": "click",
+      "target": "css=#address-ui-widgets-enterAddressStateOrRegion .a-button-text",
+      "targets": [
+        ["css=#address-ui-widgets-enterAddressStateOrRegion .a-button-text", "css:finder"],
+        ["xpath=//span[@id='address-ui-widgets-enterAddressStateOrRegion']/span/span", "xpath:idRelative"],
+        ["xpath=//div[14]/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d6ccde6-9799-4e4d-b671-3a20b5513962",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-enterAddressStateOrRegion-dropdown-nativeId_0",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressStateOrRegion-dropdown-nativeId_0", "id"],
+        ["linkText=Alberta", "linkText"],
+        ["css=#address-ui-widgets-enterAddressStateOrRegion-dropdown-nativeId_0", "css:finder"],
+        ["xpath=//a[contains(text(),'Alberta')]", "xpath:link"],
+        ["xpath=//a[@id='address-ui-widgets-enterAddressStateOrRegion-dropdown-nativeId_0']", "xpath:attributes"],
+        ["xpath=//div[@id='a-popover-2']/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[3]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Alberta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfb644b2-7844-44f1-8178-58c74e3e6979",
+      "comment": "",
+      "command": "click",
+      "target": "id=address-ui-widgets-enterAddressPostalCode",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressPostalCode", "id"],
+        ["name=address-ui-widgets-enterAddressPostalCode", "name"],
+        ["css=#address-ui-widgets-enterAddressPostalCode", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressPostalCode']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[16]/input", "xpath:idRelative"],
+        ["xpath=//div[16]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b8cf4db-6e15-49e6-aac6-9fd4a7f7f697",
+      "comment": "",
+      "command": "type",
+      "target": "id=address-ui-widgets-enterAddressPostalCode",
+      "targets": [
+        ["id=address-ui-widgets-enterAddressPostalCode", "id"],
+        ["name=address-ui-widgets-enterAddressPostalCode", "name"],
+        ["css=#address-ui-widgets-enterAddressPostalCode", "css:finder"],
+        ["xpath=//input[@id='address-ui-widgets-enterAddressPostalCode']", "xpath:attributes"],
+        ["xpath=//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div[16]/input", "xpath:idRelative"],
+        ["xpath=//div[16]/input", "xpath:position"]
+      ],
+      "value": "t2n1n4"
+    }, {
+      "id": "9e2bf54b-9def-4eb1-9155-f2e13641c94f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#address-ui-widgets-form-submit-button .a-button-input",
+      "targets": [
+        ["css=#address-ui-widgets-form-submit-button .a-button-input", "css:finder"],
+        ["xpath=(//input[@type='submit'])[5]", "xpath:attributes"],
+        ["xpath=//span[@id='address-ui-widgets-form-submit-button']/span/input", "xpath:idRelative"],
+        ["xpath=//div/span/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "92a4989a-49dc-4981-b649-0fba041e3cf3",
+    "name": "Browse reviews",
+    "commands": [{
+      "id": "da91177f-ad9d-497a-b200-110dad56a2a5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.ca/Microsoft-Wireless-Mobile-Mouse-1850/dp/B00KLTEA0G/ref=cm_cr_arp_d_product_top?ie=UTF8",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a8fdb35-e65b-4cf8-b666-489651b4c376",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23080bec-9786-44fd-bdeb-eff25c41d80d",
+      "comment": "",
+      "command": "click",
+      "target": "id=acrCustomerReviewText",
+      "targets": [
+        ["id=acrCustomerReviewText", "id"],
+        ["css=#averageCustomerReviews_feature_div > #averageCustomerReviews #acrCustomerReviewText", "css:finder"],
+        ["xpath=//span[@id='acrCustomerReviewText']", "xpath:attributes"],
+        ["xpath=//a[@id='acrCustomerReviewLink']/span", "xpath:idRelative"],
+        ["xpath=//span[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d208b8c-9214-4019-b1d9-d8d5b01fb028",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5197.60009765625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c2c7096-5713-4a27-82d9-7aebdff7bc18",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=73%",
+      "targets": [
+        ["linkText=73%", "linkText"],
+        ["css=.a-histogram-row:nth-child(1) > .a-text-right .a-link-normal", "css:finder"],
+        ["xpath=//a[contains(text(),'73%')]", "xpath:link"],
+        ["xpath=//table[@id='histogramTable']/tbody/tr/td[3]/span[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/product-reviews/B00KLTEA0G/ref=acr_dp_hist_5?ie=UTF8&filterByStar=five_star&reviewerType=all_reviews#reviews-filter-bar')])[3]", "xpath:href"],
+        ["xpath=//td[3]/span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'73%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb684792-4b7a-45f3-9eac-37fa1e10d6f7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,882.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c836fbfd-4e92-4771-9d00-75b3d67e8095",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=4%",
+      "targets": [
+        ["linkText=4%", "linkText"],
+        ["css=.a-histogram-row:nth-child(5) > .a-text-right .a-link-normal", "css:finder"],
+        ["xpath=//a[contains(text(),'4%')]", "xpath:link"],
+        ["xpath=//table[@id='histogramTable']/tbody/tr[5]/td[3]/span[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/product-reviews/B00KLTEA0G/ref=acr_dp_hist_1?ie=UTF8&filterByStar=one_star&reviewerType=all_reviews#reviews-filter-bar')])[3]", "xpath:href"],
+        ["xpath=//tr[5]/td[3]/span[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'4%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "492c0ac4-6ec9-41aa-89a3-2e46c23b1bb0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,882.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e863688-e4d2-40ed-a741-cc7a96422d69",
+      "comment": "",
+      "command": "click",
+      "target": "id=a-autoid-12-announce",
+      "targets": [
+        ["id=a-autoid-12-announce", "id"],
+        ["css=#a-autoid-12-announce", "css:finder"],
+        ["xpath=//span[@id='a-autoid-12-announce']", "xpath:attributes"],
+        ["xpath=//span[@id='a-autoid-12']/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9db31220-d024-4c24-8196-2f9204def117",
+      "comment": "",
+      "command": "click",
+      "target": "id=star-count-dropdown_2",
+      "targets": [
+        ["id=star-count-dropdown_2", "id"],
+        ["linkText=4 star only", "linkText"],
+        ["css=#star-count-dropdown_2", "css:finder"],
+        ["xpath=//a[contains(text(),'4 star only')]", "xpath:link"],
+        ["xpath=//a[@id='star-count-dropdown_2']", "xpath:attributes"],
+        ["xpath=//div[@id='a-popover-2']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[8]", "xpath:href"],
+        ["xpath=//div[3]/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'4 star only')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "caca7261-c522-4b9e-8745-b664d2301c64",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3a531747-c551-4125-809e-2fff039d5f46"]
+  }],
+  "urls": ["https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart", "https://www.amazon.ca/Microsoft-Wireless-Mobile-Mouse-1850/dp/B00KLTEA0G/ref=cm_cr_arp_d_product_top?ie=UTF8"],
+  "plugins": []
+}
