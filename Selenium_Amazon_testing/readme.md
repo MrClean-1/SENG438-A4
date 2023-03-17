@@ -6,3 +6,4 @@ This folder contains the Selenium tests that we performed on Amazon.ca
 
 "Samira_Selenium" is done by Samira Khan and it tests view cart and remove from cart functionalities. 
 
+"SENG438_A4-Carter" is done by Carter Drewes and it tests checkout and add shipping address and browse reviews
