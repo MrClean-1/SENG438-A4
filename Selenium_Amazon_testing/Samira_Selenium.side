@@ -1,0 +1,93 @@
+{
+  "id": "f14ab1ef-7777-463b-b938-37fce1fb9db4",
+  "version": "2.0",
+  "name": "SENG438A4",
+  "url": "https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart",
+  "tests": [{
+    "id": "88fad91e-e0ea-4bc5-8156-5c9dedee893f",
+    "name": "View Cart",
+    "commands": [{
+      "id": "55278a34-65b9-4735-825f-83427ba61581",
+      "comment": "",
+      "command": "open",
+      "target": "/hz/mobile/mission?p=kxMuQaM79jXjrzzJzcaEtBzIAsEf%2BZGuAyFUFBkML6RAq9Uq4fyXaxgplA3BOIo0ue8KLMK7Wl1AMFbHTrnrNry9a7W0VEDF%2BM7Cy50UhAFi2E8u3vjV7%2BZUl46%2F8mDVZkP%2F7QZtAM4yVk%2BnrZ2xqEIxfvCZeuYe5CbzRyqbWuXJ59St5GmJufEhJWEItJm0Ze7hehM%2F26V7ga9P5WQeOPm0hG6PEyMlc6%2FMyrfn8lNL4QFSh6Yi4wmI%2BhZttt1cD5OFcgLpnTG8FIIvQdwlJeMTKimk2nwZzRmJrFDHalHYdqJM0WSNbjXp2tNpQmUOcFfvaSP8hrR%2B7GDUzaS2wW71lpzX6q0HSsloZIo4YJeoO1G6rYUyTOfLzUDsxR531%2F7TrL2%2BroboJtPSrd8ZMA%3D%3D&ref_=ci_mcx_mi&pf_rd_r=HXJ92ADS3WM4KZ0ZCDFX&pf_rd_p=d8164a99-2837-491f-bf42-2ea1f905506b&pd_rd_r=cc8ac9bf-9778-473a-8b08-3697980b4582&pd_rd_w=LHtQB&pd_rd_wg=cgPMK",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "643d88a5-01c9-446a-8eb9-694fd82c1644",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x920",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf02ad8f-c1d7-48bd-bbbe-cc70d29ae270",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3036fa58-173f-4ba6-b97c-37255303d288",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2349086a-c0fd-48f9-a1eb-d5ea75bec3e2",
+      "comment": "",
+      "command": "click",
+      "target": "id=nav-cart-text-container",
+      "targets": [
+        ["id=nav-cart-text-container", "id"],
+        ["css=#nav-cart-text-container", "css:finder"],
+        ["xpath=//div[@id='nav-cart-text-container']", "xpath:attributes"],
+        ["xpath=//a[@id='nav-cart']/div[2]", "xpath:idRelative"],
+        ["xpath=//a[5]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c75264b5-f465-49f8-a8cf-9a602de40fd1",
+    "name": "Remove From Cart",
+    "commands": [{
+      "id": "da75899d-6b36-4a3f-9016-f7596ec2900f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efada83e-c874-444f-9b13-23f867841b0c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x936",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3655d7ac-a8bf-482d-a294-74b0ff3bc212",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit.delete.C8d093822-1f7b-4ee2-b01d-e4b9ba8181d5",
+      "targets": [
+        ["name=submit.delete.C8d093822-1f7b-4ee2-b01d-e4b9ba8181d5", "name"],
+        ["css=#sc-active-C8d093822-1f7b-4ee2-b01d-e4b9ba8181d5 .a-size-small:nth-child(3) .a-color-link", "css:finder"],
+        ["xpath=//input[@name='submit.delete.C8d093822-1f7b-4ee2-b01d-e4b9ba8181d5']", "xpath:attributes"],
+        ["xpath=//div[@id='sc-active-C8d093822-1f7b-4ee2-b01d-e4b9ba8181d5']/div[4]/div/div[3]/div/span[2]/span/input", "xpath:idRelative"],
+        ["xpath=//span[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "50b0aebc-1bf7-419b-9dbd-14018b79d592",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["88fad91e-e0ea-4bc5-8156-5c9dedee893f"]
+  }],
+  "urls": ["https://www.amazon.ca/", "https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart"],
+  "plugins": []
+}
