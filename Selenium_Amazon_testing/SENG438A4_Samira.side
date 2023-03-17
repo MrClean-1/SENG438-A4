@@ -2,49 +2,58 @@
   "id": "f14ab1ef-7777-463b-b938-37fce1fb9db4",
   "version": "2.0",
   "name": "SENG438A4",
-  "url": "https://www.amazon.ca/gp/css/order-history?ref_=nav_orders_first",
+  "url": "https://www.amazon.ca/hz/mobile/mission?p=k1NJ4hyuFMY709Rk%2BUbOZtVOQHhBNWNaV9laM8kkFmN6%2FjN5uzyDXwmdW9QBJxsmpjY3IhMkCpK0CtDDg0YQ18mhviQRxSScsQLQ5ToDv9ULJ7RJo1EqhebvWtjMZi7vg7ROYHJnZltk%2FjAdCBH95IcQDaGG5xM0UK7wOIn3fJ6yYvqWBNSyLKWYEwrxamEU%2FoAC7u5MYstjgj4y8qxVwYmSqwyeTqbo4jUD8wBCO246gOoVcuV84l8EoWn8IjAiQUUK6VxrggzjXlUQ8GSLLHm1cWvfat0qxDhCrJeUNoB5RUUPAQulMBy1AS5eeBfU%2FQSZLzePcp3CEsJE6bXRHwSZRuJ4frIfBbYPJ%2BPhTUw9L4kkHZvAZ0s17uzp5%2BbGJhKjLh4Mfzeh1nwnCkL4LLIXWYb0E96MLI0BjbiGFHg%3D&ref_=ci_mcx_mi&pf_rd_r=3DQBS07ZY9G7Y0X9EVHC&pf_rd_p=d8164a99-2837-491f-bf42-2ea1f905506b&pd_rd_r=1131c011-5e23-4b15-bb17-4ab3342a27e0&pd_rd_w=A68aP&pd_rd_wg=4wF5L",
   "tests": [{
     "id": "88fad91e-e0ea-4bc5-8156-5c9dedee893f",
     "name": "View Cart",
     "commands": [{
-      "id": "55278a34-65b9-4735-825f-83427ba61581",
+      "id": "02970777-c5ef-400e-a4e1-d790678aaad9",
       "comment": "",
       "command": "open",
-      "target": "/hz/mobile/mission?p=kxMuQaM79jXjrzzJzcaEtBzIAsEf%2BZGuAyFUFBkML6RAq9Uq4fyXaxgplA3BOIo0ue8KLMK7Wl1AMFbHTrnrNry9a7W0VEDF%2BM7Cy50UhAFi2E8u3vjV7%2BZUl46%2F8mDVZkP%2F7QZtAM4yVk%2BnrZ2xqEIxfvCZeuYe5CbzRyqbWuXJ59St5GmJufEhJWEItJm0Ze7hehM%2F26V7ga9P5WQeOPm0hG6PEyMlc6%2FMyrfn8lNL4QFSh6Yi4wmI%2BhZttt1cD5OFcgLpnTG8FIIvQdwlJeMTKimk2nwZzRmJrFDHalHYdqJM0WSNbjXp2tNpQmUOcFfvaSP8hrR%2B7GDUzaS2wW71lpzX6q0HSsloZIo4YJeoO1G6rYUyTOfLzUDsxR531%2F7TrL2%2BroboJtPSrd8ZMA%3D%3D&ref_=ci_mcx_mi&pf_rd_r=HXJ92ADS3WM4KZ0ZCDFX&pf_rd_p=d8164a99-2837-491f-bf42-2ea1f905506b&pd_rd_r=cc8ac9bf-9778-473a-8b08-3697980b4582&pd_rd_w=LHtQB&pd_rd_wg=cgPMK",
+      "target": "https://www.amazon.ca/hz/mobile/mission?p=k1NJ4hyuFMY709Rk%2BUbOZtVOQHhBNWNaV9laM8kkFmN6%2FjN5uzyDXwmdW9QBJxsmpjY3IhMkCpK0CtDDg0YQ18mhviQRxSScsQLQ5ToDv9ULJ7RJo1EqhebvWtjMZi7vg7ROYHJnZltk%2FjAdCBH95IcQDaGG5xM0UK7wOIn3fJ6yYvqWBNSyLKWYEwrxamEU%2FoAC7u5MYstjgj4y8qxVwYmSqwyeTqbo4jUD8wBCO246gOoVcuV84l8EoWn8IjAiQUUK6VxrggzjXlUQ8GSLLHm1cWvfat0qxDhCrJeUNoB5RUUPAQulMBy1AS5eeBfU%2FQSZLzePcp3CEsJE6bXRHwSZRuJ4frIfBbYPJ%2BPhTUw9L4kkHZvAZ0s17uzp5%2BbGJhKjLh4Mfzeh1nwnCkL4LLIXWYb0E96MLI0BjbiGFHg%3D&ref_=ci_mcx_mi&pf_rd_r=3DQBS07ZY9G7Y0X9EVHC&pf_rd_p=d8164a99-2837-491f-bf42-2ea1f905506b&pd_rd_r=1131c011-5e23-4b15-bb17-4ab3342a27e0&pd_rd_w=A68aP&pd_rd_wg=4wF5L",
       "targets": [],
       "value": ""
     }, {
-      "id": "643d88a5-01c9-446a-8eb9-694fd82c1644",
+      "id": "aaf5e280-ff40-4616-a7bb-fd69550141f8",
       "comment": "",
       "command": "setWindowSize",
-      "target": "784x920",
+      "target": "1552x936",
       "targets": [],
       "value": ""
     }, {
-      "id": "cf02ad8f-c1d7-48bd-bbbe-cc70d29ae270",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,0)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "3036fa58-173f-4ba6-b97c-37255303d288",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,0)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "2349086a-c0fd-48f9-a1eb-d5ea75bec3e2",
+      "id": "1944367a-5d2c-41ff-b6c4-9c6788eb3605",
       "comment": "",
       "command": "click",
-      "target": "id=nav-cart-text-container",
+      "target": "css=.nav-cart-icon",
       "targets": [
-        ["id=nav-cart-text-container", "id"],
-        ["css=#nav-cart-text-container", "css:finder"],
-        ["xpath=//div[@id='nav-cart-text-container']", "xpath:attributes"],
-        ["xpath=//a[@id='nav-cart']/div[2]", "xpath:idRelative"],
-        ["xpath=//a[5]/div[2]", "xpath:position"]
+        ["css=.nav-cart-icon", "css:finder"],
+        ["xpath=//div[@id='nav-cart-count-container']/span[2]", "xpath:idRelative"],
+        ["xpath=//a[5]/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69faea87-efd9-4737-ba5a-8803ff863cc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='sc-active-cart']/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Shopping Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fac2b82-7e05-4849-a1a5-cea00391b66e",
+      "comment": "",
+      "command": "click",
+      "target": "id=sc-cart-column",
+      "targets": [
+        ["id=sc-cart-column", "id"],
+        ["css=#sc-cart-column", "css:finder"],
+        ["xpath=//div[@id='sc-cart-column']", "xpath:attributes"],
+        ["xpath=//div[@id='sc-retail-cart-container']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[4]/div/div[2]", "xpath:position"]
       ],
       "value": ""
     }]
@@ -207,6 +216,6 @@
     "timeout": 300,
     "tests": ["88fad91e-e0ea-4bc5-8156-5c9dedee893f"]
   }],
-  "urls": ["https://www.amazon.ca/", "https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart", "https://www.amazon.ca/gp/product/B09XV5TY6L/ref=ox_sc_act_image_1?smid=ADAKYBS9ULYBA&th=1", "https://www.amazon.ca/gp/css/order-history?ref_=nav_orders_first"],
+  "urls": ["https://www.amazon.ca/", "https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart", "https://www.amazon.ca/gp/product/B09XV5TY6L/ref=ox_sc_act_image_1?smid=ADAKYBS9ULYBA&th=1", "https://www.amazon.ca/gp/css/order-history?ref_=nav_orders_first", "https://www.amazon.ca/hz/mobile/mission?p=k1NJ4hyuFMY709Rk%2BUbOZtVOQHhBNWNaV9laM8kkFmN6%2FjN5uzyDXwmdW9QBJxsmpjY3IhMkCpK0CtDDg0YQ18mhviQRxSScsQLQ5ToDv9ULJ7RJo1EqhebvWtjMZi7vg7ROYHJnZltk%2FjAdCBH95IcQDaGG5xM0UK7wOIn3fJ6yYvqWBNSyLKWYEwrxamEU%2FoAC7u5MYstjgj4y8qxVwYmSqwyeTqbo4jUD8wBCO246gOoVcuV84l8EoWn8IjAiQUUK6VxrggzjXlUQ8GSLLHm1cWvfat0qxDhCrJeUNoB5RUUPAQulMBy1AS5eeBfU%2FQSZLzePcp3CEsJE6bXRHwSZRuJ4frIfBbYPJ%2BPhTUw9L4kkHZvAZ0s17uzp5%2BbGJhKjLh4Mfzeh1nwnCkL4LLIXWYb0E96MLI0BjbiGFHg%3D&ref_=ci_mcx_mi&pf_rd_r=3DQBS07ZY9G7Y0X9EVHC&pf_rd_p=d8164a99-2837-491f-bf42-2ea1f905506b&pd_rd_r=1131c011-5e23-4b15-bb17-4ab3342a27e0&pd_rd_w=A68aP&pd_rd_wg=4wF5L"],
   "plugins": []
 }
