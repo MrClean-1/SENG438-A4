@@ -4,6 +4,6 @@ This folder contains the Selenium tests that we performed on Amazon.ca
 
 "SENG438-Michele" is done by Michele Pham and it tests register and browse functionalities.
 
-"Samira_Selenium" is done by Samira Khan and it tests view cart and remove from cart functionalities. 
+"Samira_Selenium" is done by Samira Khan and it tests view cart, remove from cart, and write a review functionalities. 
 
 "SENG438_A4-Carter" is done by Carter Drewes and it tests checkout and add shipping address and browse reviews
